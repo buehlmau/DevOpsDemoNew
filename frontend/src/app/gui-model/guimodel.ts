@@ -1,6 +1,5 @@
 /* tslint:disable:max-line-length */
 export class GuiModel {
-
     private _guiModel = {
         "application": {
             "title": "DevOpsDemo FS2024",
@@ -58,7 +57,7 @@ export class GuiModel {
                     "url": "/todo",
                     "formFieldList": [
                         {
-                            "id":   "title",
+                            "id": "title",
                             "type": "text",
                             "name": { default: "Titel" },
                             "required": true,
@@ -86,7 +85,7 @@ export class GuiModel {
                             "name": "Ok"
                         }
                     ]
-                },
+                }
             ],
             "pageList": [
                 {
@@ -105,24 +104,40 @@ export class GuiModel {
                             "color": "wet-asphalt",
                             "page": "toDoPage",
                             "width": 2,
-                            "newRow": true,
+                            "newRow": true
                         },
+                        {
+                            "type": "button",
+                            "name": { default: "Test Kacheln 1" },
+                            "icon": "fa-square",
+                            "color": "green",
+                            "width": 2,
+                            "newRow": true
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Test Kacheln 2" },
+                            "icon": "fa-square",
+                            "color": "red",
+                            "width": 2,
+                            "newRow": true
+                        }
                     ]
                 },
                 {
                     "id": "toDoPage",
                     "elementList": [
                         {
-                            "type": "backbutton",
+                            "type": "backbutton"
                         },
                         {
                             "type": "newButton",
-                            "name": { default: "Neues ToDo"},
+                            "name": { default: "Neues ToDo" },
                             "icon": "fa-user",
                             "color": "green",
                             "width": 2,
-                            "form" : {
-                                "form" : "ToDoForm"
+                            "form": {
+                                "form": "ToDoForm"
                             }
                         },
                         {
@@ -137,11 +152,10 @@ export class GuiModel {
                             }
                         }
                     ]
-                },
+                }
             ]
         }
     };
-
 
     get guiModel() {
         return this._guiModel;
