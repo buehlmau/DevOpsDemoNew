@@ -116,7 +116,7 @@ export class GuiModel {
                         },
                         {
                             "type": "button",
-                            "name": { default: "Test Kacheln 3" },
+                            "name": { default: "Test Kacheln 2" },
                             "icon": "fa-square",
                             "color": "red",
                             "width": 2,
