@@ -41,7 +41,6 @@ public class FizzBuzzConverterTest {
     void fizzBuzzConvertorMultiplesOfSeven() {
 
         FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
-
         Assertions.assertEquals("Buzz", fizzBuzz.convert(7));
     }
 

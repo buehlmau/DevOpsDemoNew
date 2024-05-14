@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.zhaw.iwi.devops.demo.ToDoControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-09T06:46:09" hostname="HP-ANDRE" time="0.03">
+  <properties/>
+  <testcase name="testCreate()" classname="ch.zhaw.iwi.devops.demo.ToDoControllerTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
