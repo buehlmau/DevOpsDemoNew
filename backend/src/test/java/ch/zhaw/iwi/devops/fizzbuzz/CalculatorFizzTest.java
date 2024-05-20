@@ -35,4 +35,13 @@ public class CalculatorFizzTest {
         Assertions.assertEquals("4", fizzBuzz.multiply(2, 2));
         Assertions.assertEquals("8", fizzBuzz.multiply(4, 2));
     }
+
+    @Test
+    public void testMultiply_ReturnsFizzBuzz() {
+        CalculatorFizz calculator = new CalculatorFizz();
+        int a = 3;
+        int b = 7;
+        String result = calculator.multiply(a, b);
+        Assertions.assertEquals("FizzBuzz", result);
+    }
 }
