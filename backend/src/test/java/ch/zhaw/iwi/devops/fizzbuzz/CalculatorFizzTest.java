@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
-public class CalculatorFizzTest {
+class CalculatorFizzTest {
     @Test
     public void testMultiplyFizz() {
         CalculatorFizz fizzBuzz = new CalculatorFizz();
